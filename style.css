@@ -1,0 +1,569 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+body {
+    padding-top: 6em;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.fa-bars {
+  color:#1140A0;
+}
+
+#logo {
+  height:4.5em;
+  width: auto;
+  padding-top:5px;
+  padding-bottom:5px;
+  /* padding-left:1em; */
+  margin-left:1em;
+  margin-right: 1em;
+}
+
+#logo_bottom {
+  height:75px;
+  width: auto;
+  text-align:center;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+#header {
+  padding: 0 10px 10px 10px;
+}
+
+#buton {
+  border:1px solid #1140A0;
+}
+
+#menuitems {
+  font-family: 'Raleway';
+  font-size:1.2em;
+  font-weight: 500;
+  color:#1140A0;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+#mainNav {
+  border-bottom:1px #1C70E0 solid;
+}
+
+#mainNav a:hover {
+  font-weight:600;
+  background-color: #1140A0;
+  color:white;
+  /* color:#1C70E0; */
+  /* text-decoration:underline; */
+
+}
+
+.intro {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+#introtext {
+  color:#0420C2;
+  font-size:1.2em;
+  font-family: 'Raleway',sans-serif;
+}
+
+#readmore_button {
+    text-align: center;
+    /* background-color:#1140A0; */
+    background-image: linear-gradient(#1C70E0, #061161);
+    width:11em;
+    height:2.5em;
+    margin: 0 auto;
+}
+
+#readmore_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    padding:4px;
+    letter-spacing: 2px;
+}
+
+.text {
+  font-family: 'Raleway',sans-serif;
+  color:#061161;
+}
+
+.abouttext {
+  width:80%;
+  margin:0 auto;
+}
+
+.contacttext {
+  font-family: 'Avenir LT Std',sans-serif;
+  font-size:1.1em;
+  color:#061161;
+}
+
+#teampic {
+  width:90%;
+  height:auto;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.hospitals {
+  width:80%;
+  margin:0 auto;
+  padding-top:1em;
+  padding-bottom: 2em;
+}
+
+.hospitals img {
+  margin:0 auto;
+}
+
+#headshot {
+  width:100%;
+  height:auto;
+}
+
+.hospitalslogo {
+  width:60%;
+  height:auto;
+}
+
+#secretary {
+  width:80%;
+  height:auto;
+  padding-bottom:1em;
+}
+
+#procedures_mobile {
+  display:none;
+}
+
+/* TESTIMONIALS CAROUSEL CSS */
+
+.fa-chevron-right {
+  font-size:4em!important;
+  color:#202086;
+  padding-left:1em;
+}
+.fa-chevron-left {
+  font-size:4em!important;
+  color:#202086;
+  padding-right:1em;
+}
+.carousel-inner {
+  width:70%;
+  margin: 0 auto;
+}
+.carousel-control-prev {
+  left: -10%;
+}
+.carousel-control-next {
+  right: -10%;
+}
+.image-next-icon {
+  background-color:black!important;
+}
+.image-previous-icon {
+  background-color:black!important;
+}
+.carousel-control-prev-icon {
+  background-color:#7F055F;
+}
+.carousel-control-next-icon {
+  background-color:#7F055F;
+}
+
+#testimonialscarousel {
+  background-color:#DCE7F5;
+  color:#202086;
+  width:80%;
+  margin:0 auto;
+}
+
+/* ROTATING COLUMN */
+.rotate-vert-center {
+	-webkit-animation: rotate-vert-center 10s linear infinite forwards;
+	        animation: rotate-vert-center 10s linear infinite forwards;
+}
+
+.spine {
+  position:relative;
+  display:inline-block;
+  text-align:left;
+  /* width: 271px; */
+  /* height: 979px; */
+  width:90%;
+
+}
+
+#coloana {
+  width:20%;
+  height:auto;
+  margin-left:7em;
+}
+
+.cervical {
+  position: absolute;
+  width: 20%;
+  height: 16%;
+  top: 0;
+  left: 7em;
+  background-color: white;
+  opacity:0;
+}
+
+.thorax {
+  position: absolute;
+  width: 20%;
+  height: 39%;
+  top: 16%;
+  left: 7em;
+  background-color: white;
+  opacity:0;
+}
+
+.lumbar {
+  position: absolute;
+  width: 20%;
+  height: 26%;
+  top: 55%;
+  left: 7em;
+  background-color: white;
+  opacity:0;
+}
+
+.sacral {
+  position: absolute;
+  width: 20%;
+  height: 19%;
+  top: 80%;
+  left: 7em;
+  background-color: white;
+  opacity:0;
+}
+
+.spine .cervical:hover {
+  opacity: 0.1;
+  -webkit-filter: saturate(8);
+  filter:saturate(8);
+}
+.spine .thorax:hover {
+  opacity: 0.1;
+  -webkit-filter: saturate(8);
+  filter:saturate(8);
+}
+.spine .lumbar:hover {
+  opacity: 0.1;
+  -webkit-filter: saturate(8);
+  filter:saturate(8);
+}
+.spine .sacral:hover {
+  opacity: 0.1;
+  -webkit-filter: saturate(8);
+  filter:saturate(8);
+}
+
+.cervical_procedures {
+    visibility: hidden;
+    width: 40%;
+    background-color: #1140A0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 40%;
+}
+
+.text_cervical {
+  font-family: 'Raleway',sans-serif;
+  font-size:90%;
+}
+
+.cervical:hover + .cervical_procedures {
+    visibility: visible;
+}
+
+.thorax_procedures {
+    visibility: hidden;
+    width: 40%;
+    background-color: #1140A0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    left: 40%;
+}
+
+.thorax:hover + .thorax_procedures {
+    visibility: visible;
+}
+
+.lumbar_procedures {
+    visibility: hidden;
+    width: 40%;
+    background-color: #1140A0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 56%;
+    left: 40%;
+}
+
+.lumbar:hover + .lumbar_procedures {
+    visibility: visible;
+}
+
+.sacral_procedures {
+    visibility: hidden;
+    width: 40%;
+    background-color: #1140A0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 40%;
+}
+
+.sacral:hover + .sacral_procedures {
+    visibility: visible;
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+
+/* CONTACT CSS */
+
+.footer {
+  min-height:1.8em;
+  border-top:1px solid #1C70E0;
+  border-bottom: 1px solid #1C70E0;
+  margin-bottom:2%;
+}
+
+/* SCREEN SIZE */
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+/* SCREEN SIZE */
+
+@media (max-width: 822px) {
+  header {
+    padding: 156px 0 100px;
+  }
+
+  #logo {
+    height:3.5em;
+  }
+
+  .abouttext {
+    width:100%;
+    margin:0 auto;
+  }
+
+  .hospitals {
+    width:100%;
+    padding-bottom:0em;
+    padding-top:0em;
+  }
+
+  .hospitalslogo {
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    width:80%;
+    height:auto;
+  }
+
+  #menuitems {
+    font-size:1em;
+  }
+
+  #mainNav a:hover {
+    color:#3A95FF;
+    background-color:white;
+
+  }
+
+  #headshot {
+    padding-bottom:1em;
+  }
+
+  #introtext {
+    font-size:1em;
+  }
+
+  #readmore_button {
+    display:none;
+  }
+
+  #coloana {
+    width:40%;
+  }
+
+  #procedures_mobile {
+    display:block;
+  }
+
+  .fa-chevron-right {
+    font-size:2em!important;
+    color:black;
+    padding-left:0.4em;
+  }
+
+  .fa-chevron-left {
+    font-size:2em!important;
+    color:black;
+    padding-right:0.4em;
+  }
+
+  .carousel-inner {
+    font-size: 0.8em;
+  }
+
+  #emptyrow {
+    display:none;
+  }
+
+  .footer {
+    display:none;
+  }
+
+
+
+}
+
+section {
+  padding: 150px 0;
+}
+
+/* ANIMISTA */
+
+.puff-in-center {
+	-webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 2s linear both;
+	        animation: slide-in-bck-center 2s linear both;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-12-2 22:15:2
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
